@@ -10,8 +10,8 @@ android {
         applicationId "com.blankj.androidutilcode"
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 41
-        versionName "1.7.1"
+        versionCode 100800100
+        versionName "1.8.1"
     }
 
     if (signPropertiesFile.exists()) {
@@ -29,6 +29,7 @@ android {
 
     buildTypes {
         debug {
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {
@@ -37,6 +38,17 @@ android {
             if (signPropertiesFile.exists()) {
                 signingConfig signingConfigs.release
             }
+        }
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res',
+                            'src/main/res/core',
+                            'src/main/res/sub',
+                    ]
         }
     }
 

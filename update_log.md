@@ -1,3 +1,11 @@
+* 17/08/06 更改为按功能分包，增加subutil的Demo
+* 17/07/31 修复isAvailableByPing循环递归，发布1.8.1
+* 17/07/31 完善BarUtils，发布1.8.0
+* 17/07/31 完善BarUtils
+* 17/07/30 完善BarUtils
+* 17/07/29 完善BarUtils
+* 17/07/28 完善BarUtils
+* 17/07/27 完善BarUtils
 * 17/07/26 完善ActivityUtils
 * 17/07/25 完善BarUtils，更新布局文件
 * 17/07/24 完善BarUtils

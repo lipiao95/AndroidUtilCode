@@ -26,8 +26,8 @@ android {
 
     defaultConfig {
         minSdkVersion 14
-        versionCode 41
-        versionName "1.7.1"
+        versionCode 100800100
+        versionName "1.8.1"
     }
 
     buildTypes {
@@ -56,7 +56,6 @@ android {
 dependencies {
     final SUPPORT_VERSION = '25.3.1'
     final JUNIT_VERSION = '4.12'
-    final TRUTH_VERSION = '0.31'
     final ROBOLECTRIC_VERSION = '3.1.2'
 
     provided "com.android.support:appcompat-v7:$SUPPORT_VERSION"
